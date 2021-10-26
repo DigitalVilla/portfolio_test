@@ -98,6 +98,51 @@ header {
   margin: 1.2rem 0;
 }
 
-.cta-section .btn:nth-child(2) {
+/* .cta-section .btn:nth-child(2) {
   margin-left: 0.5rem;
+} */
+
+.cta-section .btn-fill {
+  margin-right: 0.5rem;
+}
+
+.portfolio {
+  padding: 1rem 0;
+}
+
+.cards-container {
+  display: flex;
+}
+
+.card {
+  border: 1px solid var(--gray-light);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 280px;
+  /* height: 240px; */
+}
+
+.card figure {
+  height: 80%;
+}
+
+.card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card .about {
+  padding: 0.5rem;
+}
+
+.card .about p {
+  font-size: 0.8rem;
+  color: var(--gray);
+  margin-bottom: 0.2rem;
+}
+
+.card .about h3 {
+  display: flex;
+  justify-content: space-between;
 }
